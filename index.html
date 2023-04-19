@@ -3,6 +3,7 @@
   <head>
     <title>Matheus Zancanela</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="principal-container">
@@ -11,11 +12,20 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Matheus Zancanela</h2>
             <div>
-              <a class="links-navegacao">Habilidades</a>
-              <a class="links-navegacao">Portfólio</a>
-              <a class="links-navegacao">Expericências</a>
+              <a
+                onclick="onClickScrollTo('section-skills')"
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a
+                onclick="onClickScrollTo('section-portfolio')"
+                class="links-navegacao"
+                >Portfólio</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -70,7 +80,7 @@
           </div>
         </section>
 
-        <section class="section-skills">
+        <section class="section-skills" id="section-skills">
           <h2>Habilidades que</h2>
           <h2 class="roxo">domino.</h2>
           <div class="skills-container">
@@ -119,7 +129,7 @@
           </div>
         </section>
 
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <h2>Portfólio</h2>
           <h2 class="roxo">de projetos.</h2>
           <div class="section-portfolio-grid">
@@ -178,7 +188,7 @@
           </div>
         </section>
 
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="roxo">te ajudar?</h2>
           <p>Estou à diposição para ajudar o seu projeto ou sua empresa.</p>
