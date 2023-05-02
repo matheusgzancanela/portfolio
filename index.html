@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js"></script>
   </head>
+
   <body>
     <div class="principal-container">
       <div class="content-container">
@@ -40,28 +41,27 @@
               </p>
               <button>ENTRAR EM CONTATO</button>
               <div class="hero-info-icons-container">
-                <a>
+                <a
+                  onclick="onClickLink('https://github.com/matheusgzancanela')"
+                >
                   <img
                     class="hero-info-icons-img"
                     src="icons/logo-github.png"
                     alt="logo github"
                   />
                 </a>
-                <a>
+                <a
+                  onclick="onClickLink('https://www.linkedin.com/in/matheusgzancanela/')"
+                >
                   <img
                     class="hero-info-icons-img"
                     src="icons/logo-linkedin.png"
                     alt="logo linkedin"
                   />
                 </a>
-                <a>
-                  <img
-                    class="hero-info-icons-img"
-                    src="icons/logo-youtube.png"
-                    alt="logo youtube"
-                  />
-                </a>
-                <a>
+                <a
+                  onclick="onClickLink('https://www.instagram.com/matheuszancanela/')"
+                >
                   <img
                     class="hero-info-icons-img"
                     src="icons/logo-instagram.png"
@@ -140,7 +140,7 @@
                 alt="Primeiro projeto"
               />
               <h5>Lista de Supermercado</h5>
-              <p class="card">Aplicação em React.js com Express e MongoDB</p>
+              <p class="card">Projeto futuro</p>
               <div class="section-portfolio-card-links">
                 <a>
                   <img
@@ -165,9 +165,7 @@
                 alt="Segundo projeto"
               />
               <h5>Clube do Livro</h5>
-              <p class="card">
-                Aplicação em React.js com Express, Sequelize e AWS
-              </p>
+              <p class="card">Projeto futuro</p>
               <div class="section-portfolio-card-links">
                 <a>
                   <img
@@ -198,7 +196,9 @@
               src="icons/mail.png"
               alt="E-mail icon"
             />
-            <p>matheuspessoal@gmail.com</p>
+            <a href="malito:matheusgzpessoal@gmail.com"
+              >matheuspessoal@gmail.com</a
+            >
           </div>
           <div class="section-contact-item">
             <img
@@ -206,7 +206,7 @@
               src="icons/telefone.png"
               alt="E-mail telefone"
             />
-            <p>(32) 98850-8779</p>
+            <a href="tel:(32)98850-8779">(32) 98850-8779</a>
           </div>
         </section>
       </div>
@@ -216,28 +216,25 @@
       <div class="footer-content">
         <h2 class="titulo-navegacao">Matheus Zancanela</h2>
         <div class="footer-social-icons-container">
-          <a>
+          <a onclick="onClickLink('https://github.com/matheusgzancanela')">
             <img
               class="hero-info-icons-img"
               src="icons/logo-github.png"
               alt="logo github"
             />
           </a>
-          <a>
+          <a
+            onclick="onClickLink('https://www.linkedin.com/in/matheusgzancanela/')"
+          >
             <img
               class="hero-info-icons-img"
               src="icons/logo-linkedin.png"
               alt="logo linkedin"
             />
           </a>
-          <a>
-            <img
-              class="hero-info-icons-img"
-              src="icons/logo-youtube.png"
-              alt="logo youtube"
-            />
-          </a>
-          <a>
+          <a
+            onclick="onClickLink('https://www.instagram.com/matheuszancanela/')"
+          >
             <img
               class="hero-info-icons-img"
               src="icons/logo-instagram.png"
