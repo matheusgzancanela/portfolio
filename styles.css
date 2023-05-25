@@ -313,36 +313,3 @@ footer {
   justify-content: space-between;
   width: 40%;
 }
-
-@media only screen and (max-device-width: 450px) {
-  .content-container {
-    width: 96vw;
-    max-width: 96vw;
-  }
-
-  .barra-navegacao {
-    width: 100%;
-  }
-
-  .hero-info {
-    width: 100%;
-  }
-
-  .hero-info-image {
-    width: 202px;
-  }
-
-  .skills-container {
-    column-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 12px;
-  }
-
-  .skill-card {
-    margin-bottom: 10px;
-  }
-
-  .footer-content {
-    width: 100%;
-  }
-}

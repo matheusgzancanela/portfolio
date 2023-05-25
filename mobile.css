@@ -1,0 +1,64 @@
+@media only screen and (max-device-width: 450px) {
+  button {
+    height: 64px;
+    font-size: 20px;
+  }
+
+  .content-container {
+    width: 96vw;
+    max-width: 96vw;
+  }
+
+  .barra-navegacao {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .titulo-navegacao {
+    font-size: 34px;
+  }
+
+  .links-navegacao {
+    display: none;
+  }
+
+  .section-hero {
+    height: auto;
+    margin-bottom: 48px;
+  }
+
+  .hero-info-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .hero-info {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-info-image {
+    width: 30vw;
+  }
+
+  .skills-container {
+    column-gap: 36px;
+    grid-template-columns: auto;
+    margin-top: 12px;
+  }
+
+  .skill-card {
+    margin-bottom: 10px;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+}
