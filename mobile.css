@@ -91,6 +91,28 @@
     height: auto;
   }
 
+  .section-portfolio-grid {
+    row-gap: 36px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .section-portfolio-card {
+    width: 46vw;
+    height: auto;
+    padding: 24px 0px;
+  }
+
+  .section-portfolio-card-links {
+    width: 40%;
+  }
+
+  .section-portfolio-card-icon-img {
+    width: 42px;
+    height: auto;
+  }
+
   .footer-content {
     width: 100%;
   }
