@@ -1,7 +1,13 @@
 @media only screen and (max-device-width: 450px) {
+  h1 {
+    text-align: center;
+  }
+
   button {
-    height: 64px;
-    font-size: 20px;
+    height: 80px;
+    font-size: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .content-container {
@@ -23,8 +29,19 @@
   }
 
   .section-hero {
-    height: auto;
-    margin-bottom: 48px;
+    height: 55vh;
+  }
+
+  .hero-info-title {
+    font-size: 56px;
+    margin-top: 12px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 70%;
+    margin-bottom: 42px;
   }
 
   .hero-info-text-container {
@@ -42,10 +59,11 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    padding-top: 200px;
   }
 
   .hero-info-image {
-    width: 30vw;
+    width: 400px;
   }
 
   .skills-container {
@@ -60,5 +78,15 @@
 
   .footer-content {
     width: 100%;
+  }
+
+  .hero-info-icons-img {
+    width: 58px;
+    height: 58px;
+  }
+
+  .hero-info-icons-container {
+    margin-top: 42px;
+    width: 60%;
   }
 }
