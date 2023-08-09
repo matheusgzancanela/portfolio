@@ -3,6 +3,20 @@
     text-align: center;
   }
 
+  h2 {
+    line-height: 68px;
+    font-size: 64px;
+  }
+
+  h5 {
+    font-size: 36px;
+  }
+
+  p.card {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+
   button {
     height: 80px;
     font-size: 25px;
@@ -11,8 +25,8 @@
   }
 
   .content-container {
-    width: 96vw;
-    max-width: 96vw;
+    width: 94vw;
+    max-width: 94vw;
   }
 
   .barra-navegacao {
@@ -67,13 +81,14 @@
   }
 
   .skills-container {
-    column-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 12px;
+    grid-template-columns: auto auto;
+    margin-top: 46px;
+    width: 100%;
   }
 
   .skill-card {
-    margin-bottom: 10px;
+    width: 40vw;
+    height: auto;
   }
 
   .footer-content {
@@ -88,5 +103,11 @@
   .hero-info-icons-container {
     margin-top: 42px;
     width: 60%;
+  }
+
+  .section-skills {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
   }
 }
